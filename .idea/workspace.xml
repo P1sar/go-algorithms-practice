@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f88804b7-97ee-44a7-bb04-8a17953b6ccc" name="Default Changelist" comment="" />
+    <list default="true" id="f88804b7-97ee-44a7-bb04-8a17953b6ccc" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/hackerRank/d.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hackerRank/rank_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/code.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/code.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/graphs/graph.go" beforeDir="false" afterPath="$PROJECT_DIR$/graphs/graph.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/graphs/graph_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/graphs/graph_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hackerRank/non-divisible-subset.go" beforeDir="false" afterPath="$PROJECT_DIR$/hackerRank/non-divisible-subset.go" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -10,38 +18,29 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/hackerRank/non-divisible-subset.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="17" column="42" selection-start-line="17" selection-start-column="42" selection-end-line="17" selection-end-column="42" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/graphs/graph_test.go">
+        <entry file="file://$PROJECT_DIR$/hackerRank/d.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="262">
-              <caret line="119" column="18" lean-forward="true" selection-start-line="119" selection-start-column="18" selection-end-line="119" selection-end-column="18" />
-              <folding>
-                <element signature="e#16#65#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="150">
+              <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/graphs/randomized-minimum-cuts.go">
+        <entry file="file://$PROJECT_DIR$/hackerRank/rank_test.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="18" column="35" selection-start-line="18" selection-start-column="35" selection-end-line="18" selection-end-column="35" />
-              <folding>
-                <element signature="e#16#47#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sorts/sorts_test.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="213">
-              <caret line="29" column="24" selection-start-line="29" selection-start-column="24" selection-end-line="29" selection-end-column="24" />
-              <folding>
-                <element signature="e#15#62#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="420">
+              <caret line="34" column="1" lean-forward="true" selection-start-line="34" selection-start-column="1" selection-end-line="34" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -102,9 +101,12 @@
         <option value="$PROJECT_DIR$/test-data/kargerMinCut.txt" />
         <option value="$PROJECT_DIR$/test-data/smallGraph.txt" />
         <option value="$PROJECT_DIR$/utils/utils.go" />
-        <option value="$PROJECT_DIR$/graphs/graph.go" />
         <option value="$PROJECT_DIR$/graphs/randomized-minimum-cuts.go" />
+        <option value="$PROJECT_DIR$/graphs/graph.go" />
         <option value="$PROJECT_DIR$/graphs/graph_test.go" />
+        <option value="$PROJECT_DIR$/hackerRank/rank_test.go" />
+        <option value="$PROJECT_DIR$/hackerRank/non-divisible-subset.go" />
+        <option value="$PROJECT_DIR$/hackerRank/d.py" />
       </list>
     </option>
   </component>
@@ -133,7 +135,7 @@
             <path>
               <item name="algorithmsPractice" type="b2602c69:ProjectViewProjectNode" />
               <item name="algorithmsPractice" type="462c0819:PsiDirectoryNode" />
-              <item name="graphs" type="462c0819:PsiDirectoryNode" />
+              <item name="hackerRank" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="algorithmsPractice" type="b2602c69:ProjectViewProjectNode" />
@@ -144,6 +146,11 @@
               <item name="algorithmsPractice" type="b2602c69:ProjectViewProjectNode" />
               <item name="algorithmsPractice" type="462c0819:PsiDirectoryNode" />
               <item name="test-data" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="algorithmsPractice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="algorithmsPractice" type="462c0819:PsiDirectoryNode" />
+              <item name="venv" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="algorithmsPractice" type="b2602c69:ProjectViewProjectNode" />
@@ -164,7 +171,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="go.vgo" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -189,114 +196,124 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Go Test.BenchmarkRandomizedMinimumCuts in algs/graphs">
-    <configuration name="BenchmarkRSelection in algs/sorts" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.d">
+    <configuration name="TestNonDS in algs/hackerRank" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="code" />
-      <working_directory value="$PROJECT_DIR$/sorts" />
-      <framework value="gobench" />
-      <kind value="PACKAGE" />
-      <package value="algs/sorts" />
-      <directory value="$PROJECT_DIR$/" />
-      <filePath value="$PROJECT_DIR$/" />
-      <pattern value="^BenchmarkRSelection$" />
-      <method v="2" />
-    </configuration>
-    <configuration name="BenchmarkRandomizedMinimumCuts in algs/graphs" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
-      <module name="code" />
-      <working_directory value="$PROJECT_DIR$/graphs" />
-      <framework value="gobench" />
-      <kind value="PACKAGE" />
-      <package value="algs/graphs" />
-      <directory value="$PROJECT_DIR$/" />
-      <filePath value="$PROJECT_DIR$/" />
-      <pattern value="^BenchmarkRandomizedMinimumCuts$" />
-      <method v="2" />
-    </configuration>
-    <configuration name="TestRandomizedMinimumCusts in algs/graphs" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
-      <module name="code" />
-      <working_directory value="$PROJECT_DIR$/graphs" />
+      <working_directory value="$PROJECT_DIR$/hackerRank" />
       <framework value="gotest" />
       <kind value="PACKAGE" />
-      <package value="algs/graphs" />
+      <package value="algs/hackerRank" />
       <directory value="$PROJECT_DIR$/" />
       <filePath value="$PROJECT_DIR$/" />
-      <pattern value="^TestRandomizedMinimumCusts$" />
+      <pattern value="^TestNonDS$" />
       <method v="2" />
     </configuration>
-    <configuration name="TestRandomizedMinimumCuts in algs/graphs" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+    <configuration name="TestNonDS3 in algs/hackerRank" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="code" />
-      <working_directory value="$PROJECT_DIR$/graphs" />
+      <working_directory value="$PROJECT_DIR$/hackerRank" />
       <framework value="gotest" />
       <kind value="PACKAGE" />
-      <package value="algs/graphs" />
+      <package value="algs/hackerRank" />
       <directory value="$PROJECT_DIR$/" />
       <filePath value="$PROJECT_DIR$/" />
-      <pattern value="^TestRandomizedMinimumCuts$" />
+      <pattern value="^TestNonDS3$" />
       <method v="2" />
     </configuration>
-    <configuration name="TestUndirectedGraph_VerticesContraction in algs/graphs" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+    <configuration name="TestNonDS4 in algs/hackerRank" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="code" />
-      <working_directory value="$PROJECT_DIR$/graphs" />
+      <working_directory value="$PROJECT_DIR$/hackerRank" />
       <framework value="gotest" />
       <kind value="PACKAGE" />
-      <package value="algs/graphs" />
+      <package value="algs/hackerRank" />
       <directory value="$PROJECT_DIR$/" />
       <filePath value="$PROJECT_DIR$/" />
-      <pattern value="^TestUndirectedGraph_VerticesContraction$" />
+      <pattern value="^TestNonDS4$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="TestNonDivisibleSubSet in algs/hackerRank" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="code" />
+      <working_directory value="$PROJECT_DIR$/hackerRank" />
+      <framework value="gotest" />
+      <kind value="PACKAGE" />
+      <package value="algs/hackerRank" />
+      <directory value="$PROJECT_DIR$/" />
+      <filePath value="$PROJECT_DIR$/" />
+      <pattern value="^TestNonDivisibleSubSet$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="d" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="code" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/hackerRank" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/hackerRank/d.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Go Test.BenchmarkRandomizedMinimumCuts in algs/graphs" />
-        <item itemvalue="Go Test.BenchmarkRSelection in algs/sorts" />
-        <item itemvalue="Go Test.TestRandomizedMinimumCuts in algs/graphs" />
-        <item itemvalue="Go Test.TestUndirectedGraph_VerticesContraction in algs/graphs" />
-        <item itemvalue="Go Test.TestRandomizedMinimumCusts in algs/graphs" />
+        <item itemvalue="Python.d" />
+        <item itemvalue="Go Test.TestNonDS in algs/hackerRank" />
+        <item itemvalue="Go Test.TestNonDS3 in algs/hackerRank" />
+        <item itemvalue="Go Test.TestNonDS4 in algs/hackerRank" />
+        <item itemvalue="Go Test.TestNonDivisibleSubSet in algs/hackerRank" />
       </list>
     </recent_temporary>
   </component>
   <component name="TestHistory">
-    <history-entry file="TestRandomizedMinimumCuts_in_algs_graphs - 2020.05.08 at 11h 50m 21s.xml">
-      <configuration name="TestRandomizedMinimumCuts in algs/graphs" configurationId="GoTestRunConfiguration" />
+    <history-entry file="TestNonDS4_in_algs_hackerRank - 2020.05.12 at 19h 47m 05s.xml">
+      <configuration name="TestNonDS4 in algs/hackerRank" configurationId="GoTestRunConfiguration" />
     </history-entry>
-    <history-entry file="TestRandomizedMinimumCuts_in_algs_graphs - 2020.05.08 at 11h 50m 27s.xml">
-      <configuration name="TestRandomizedMinimumCuts in algs/graphs" configurationId="GoTestRunConfiguration" />
+    <history-entry file="TestNonDS4_in_algs_hackerRank - 2020.05.12 at 19h 48m 04s.xml">
+      <configuration name="TestNonDS4 in algs/hackerRank" configurationId="GoTestRunConfiguration" />
     </history-entry>
-    <history-entry file="TestRandomizedMinimumCuts_in_algs_graphs - 2020.05.08 at 11h 50m 33s.xml">
-      <configuration name="TestRandomizedMinimumCuts in algs/graphs" configurationId="GoTestRunConfiguration" />
+    <history-entry file="TestNonDS4_in_algs_hackerRank - 2020.05.12 at 19h 48m 36s.xml">
+      <configuration name="TestNonDS4 in algs/hackerRank" configurationId="GoTestRunConfiguration" />
     </history-entry>
-    <history-entry file="TestRandomizedMinimumCuts_in_algs_graphs - 2020.05.08 at 11h 50m 51s.xml">
-      <configuration name="TestRandomizedMinimumCuts in algs/graphs" configurationId="GoTestRunConfiguration" />
+    <history-entry file="TestNonDS4_in_algs_hackerRank - 2020.05.12 at 20h 14m 20s.xml">
+      <configuration name="TestNonDS4 in algs/hackerRank" configurationId="GoTestRunConfiguration" />
     </history-entry>
-    <history-entry file="TestRandomizedMinimumCuts_in_algs_graphs - 2020.05.08 at 11h 50m 55s.xml">
-      <configuration name="TestRandomizedMinimumCuts in algs/graphs" configurationId="GoTestRunConfiguration" />
+    <history-entry file="TestNonDS4_in_algs_hackerRank - 2020.05.12 at 20h 14m 45s.xml">
+      <configuration name="TestNonDS4 in algs/hackerRank" configurationId="GoTestRunConfiguration" />
     </history-entry>
-    <history-entry file="TestRandomizedMinimumCuts_in_algs_graphs - 2020.05.08 at 11h 51m 39s.xml">
-      <configuration name="TestRandomizedMinimumCuts in algs/graphs" configurationId="GoTestRunConfiguration" />
+    <history-entry file="TestNonDS4_in_algs_hackerRank - 2020.05.12 at 20h 15m 03s.xml">
+      <configuration name="TestNonDS4 in algs/hackerRank" configurationId="GoTestRunConfiguration" />
     </history-entry>
-    <history-entry file="TestRandomizedMinimumCuts_in_algs_graphs - 2020.05.08 at 12h 19m 11s.xml">
-      <configuration name="TestRandomizedMinimumCuts in algs/graphs" configurationId="GoTestRunConfiguration" />
+    <history-entry file="TestNonDS4_in_algs_hackerRank - 2020.05.12 at 20h 23m 17s.xml">
+      <configuration name="TestNonDS4 in algs/hackerRank" configurationId="GoTestRunConfiguration" />
     </history-entry>
-    <history-entry file="BenchmarkRandomizedMinimumCuts_in_algs_graphs - 2020.05.08 at 12h 23m 01s.xml">
-      <configuration name="BenchmarkRandomizedMinimumCuts in algs/graphs" configurationId="GoTestRunConfiguration" />
+    <history-entry file="TestNonDS4_in_algs_hackerRank - 2020.05.12 at 20h 25m 17s.xml">
+      <configuration name="TestNonDS4 in algs/hackerRank" configurationId="GoTestRunConfiguration" />
     </history-entry>
-    <history-entry file="BenchmarkRandomizedMinimumCuts_in_algs_graphs - 2020.05.08 at 12h 23m 07s.xml">
-      <configuration name="BenchmarkRandomizedMinimumCuts in algs/graphs" configurationId="GoTestRunConfiguration" />
+    <history-entry file="TestNonDS3_in_algs_hackerRank - 2020.05.12 at 20h 25m 21s.xml">
+      <configuration name="TestNonDS3 in algs/hackerRank" configurationId="GoTestRunConfiguration" />
     </history-entry>
-    <history-entry file="BenchmarkRSelection_in_algs_sorts - 2020.05.08 at 12h 23m 19s.xml">
-      <configuration name="BenchmarkRSelection in algs/sorts" configurationId="GoTestRunConfiguration" />
+    <history-entry file="TestNonDS_in_algs_hackerRank - 2020.05.12 at 20h 25m 23s.xml">
+      <configuration name="TestNonDS in algs/hackerRank" configurationId="GoTestRunConfiguration" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="4" y="23" width="1436" height="877" extended-state="6" />
+    <frame x="4" y="23" width="1916" height="1057" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.8661845" visible="true" weight="0.15710187" />
-      <window_info id="Structure" order="1" sideWeight="0.13381556" side_tool="true" weight="0.15710187" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.8632124" visible="true" weight="0.14087513" />
+      <window_info id="Structure" order="1" sideWeight="0.13678756" side_tool="true" weight="0.14087513" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.2955414" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.24041452" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -304,7 +321,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" />
       <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.32738853" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.32642487" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -435,20 +452,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/main.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="33" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sorts/merge-sort.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="5" selection-start-line="2" selection-start-column="5" selection-end-line="2" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test-data/QuickSort.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -492,13 +495,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="171">
           <caret line="145" column="5" selection-start-line="145" selection-start-column="5" selection-end-line="145" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sorts/randomized-selection.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="13" selection-start-line="13" selection-end-line="14" />
         </state>
       </provider>
     </entry>
@@ -578,22 +574,22 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/graphs/graph.go">
+    <entry file="file://$PROJECT_DIR$/graphs/graph_test.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="74" lean-forward="true" selection-start-line="74" selection-end-line="74" />
+        <state relative-caret-position="281">
+          <caret line="105" column="17" selection-start-line="105" selection-start-column="17" selection-end-line="105" selection-end-column="17" />
           <folding>
-            <element signature="e#16#52#0" expanded="true" />
+            <element signature="e#16#65#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sorts/sorts_test.go">
+    <entry file="file://$PROJECT_DIR$/graphs/graph.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="213">
-          <caret line="29" column="24" selection-start-line="29" selection-start-column="24" selection-end-line="29" selection-end-column="24" />
+        <state relative-caret-position="360">
+          <caret line="69" lean-forward="true" selection-start-line="69" selection-end-line="69" />
           <folding>
-            <element signature="e#15#62#0" expanded="true" />
+            <element signature="e#16#52#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -608,13 +604,58 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/graphs/graph_test.go">
+    <entry file="file://$PROJECT_DIR$/sorts/randomized-selection.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="262">
-          <caret line="119" column="18" lean-forward="true" selection-start-line="119" selection-start-column="18" selection-end-line="119" selection-end-column="18" />
+        <state relative-caret-position="345">
+          <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sorts/sorts_test.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="130">
+          <caret line="10" selection-start-line="10" selection-end-line="34" selection-end-column="1" />
           <folding>
-            <element signature="e#16#65#0" expanded="true" />
+            <element signature="e#15#62#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sorts/merge-sort.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="10" lean-forward="true" selection-start-line="9" selection-start-column="10" selection-end-line="9" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="32" column="16" lean-forward="true" selection-start-line="32" selection-start-column="16" selection-end-line="32" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/pyvenv.cfg">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hackerRank/non-divisible-subset.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="42" selection-start-line="17" selection-start-column="42" selection-end-line="17" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hackerRank/rank_test.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="34" column="1" lean-forward="true" selection-start-line="34" selection-start-column="1" selection-end-line="34" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hackerRank/d.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
         </state>
       </provider>
     </entry>

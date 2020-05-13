@@ -103,7 +103,7 @@ func TestRandomizedMinimumCuts(t *testing.T) {
 	}
 	defer file.Close()
 	b, _ := ioutil.ReadAll(file)
-	for i:=0;i<=40000; i++ {
+	for i:=0;i<=400; i++ {
 		graph := NewUndirectedGraphFromAdjacencyList(bytes.NewReader(b))
 		tmp := randomizedMinimumCuts(graph)
 		if tmp <= minCut {

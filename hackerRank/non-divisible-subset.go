@@ -1,73 +1,54 @@
 package hackerrank
 
-import "fmt"
-
-//{278,576,496,727,410,124,338,149,209,702,282,718,771,575,436}
-func NonDivisibleSubset(k int32, arr []int32) int32 {
-	remainders := make(map[int32]int32)
-	for _, v := range arr {
+func nonDivisibleSubset(k int32, arr []int32) int32 {
+	remainderArr := make([]int32,len(arr))
+	remaindersMap := make(map[int32]int32)
+	for i, v := range arr {
 		r := v%k
-		_, ok := remainders[r]
-		if ok {
-			remainders[r] += 1
+		remainderArr[i] = r
+		if _, ok := remaindersMap[r]; ok {
+			remaindersMap[r] += 1
 		} else {
-			remainders[r] = 1
+			remaindersMap[r] = 1
 		}
 	}
-	var max int32 = 0
-	for k1, _ := range remainders {
-		items := make([]int32, 0)
-		for k2, _ := range remainders {
-			items = append(items, k1)
-			if k1 == k2 {
-				continue
-			}
-			d := false
-			for _, v := range items {
-				if (k2 + v)%k == 0 {
-					d = true
+
+	remindersScoresMap := make(map[int32]int32)
+	for i:=int32(0); i<=k-1; i++ {
+		if _, ok := remaindersMap[i]; ok {
+			if i == 0 {
+				if _, ok := remindersScoresMap[i]; ok {
+					continue
+				} else {
+					remindersScoresMap[i] = 1
+					continue
+				}
+			} else {
+				// edge case is when reminder == opposit, then we should use it only once
+				iOpponent := k - i
+				if iOpponent == i {
+					remindersScoresMap[i] = 1
+					continue
+				}
+				iScore, ok := remaindersMap[i]
+				if !ok {
+					iScore = 0
+				}
+				kScore, ok := remaindersMap[iOpponent]
+				if !ok {
+					kScore = 0
+				}
+				if iScore > kScore {
+					remindersScoresMap[i] = iScore
+				} else {
+					remindersScoresMap[iOpponent] = kScore
 				}
 			}
-			if !d {
-				items = append(items, k2)
-			}
-		}
-		var tmp int32 = 0
-		fmt.Println(items)
-		for _, divisible := range items {
-			tmp += remainders[divisible]
-		}
-		if tmp > max {
-			max = tmp
 		}
 	}
-	fmt.Println(remainders)
-	return max
+	var score int32 = 0
+	for _, v := range remindersScoresMap {
+		score += v
+	}
+	return score
 }
-
-
-
-//t := make([]int32, len(arr))
-//for i := range t {
-//	t[i] = 1
-//}
-//
-//max := int32(0)
-//for j:=1; j<len(arr); j++ {
-//	tmp := int32(0)
-//	for i:=0; i<j; i++ {
-//		if (arr[i] + arr[j])%k != 0 {
-//			fmt.Printf("%v + %v NOT divisible by %v\n", arr[i], arr[j], k)
-//			tmp += 1
-//		} else {
-//			fmt.Printf("%v + %v divisible by %v\n", arr[i], arr[j], k)
-//			continue
-//		}
-//	}
-//	if tmp > t[j] {
-//		t[j] = tmp
-//		max = tmp
-//	}
-//}
-//fmt.Println(t)
-//return max
