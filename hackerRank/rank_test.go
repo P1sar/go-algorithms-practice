@@ -58,3 +58,32 @@ func TestNonDS4(t *testing.T) {
 		t.Fail()
 	}
 }
+
+func TestRepeatedStringA(t *testing.T) {
+	if res := repeatedString("aba", 10); res != 7 {
+		fmt.Println(res)
+		t.Fail()
+	}
+}
+
+func TestJumpingOnClouds(t *testing.T) {
+	if re := jumpingOnClouds([]int32{0,0,0,1,0,0}); re != 3 {
+		fmt.Println(re)
+		t.Fail()
+	}
+}
+
+func TestEqualizeArray(t *testing.T) {
+	if re := equalizeArray([]int32{3,3,2,1,3}); re != 2 {
+		fmt.Println(re)
+		t.Fail()
+	}
+}
+
+func TestQueensAttack(t *testing.T) {
+	if re := queensAttack(5, 3, 4, 3, [][]int32{{5,5}, {4,2}, {2,3}}); re != 10 {
+		fmt.Println(re)
+		t.Fail()
+	}
+}
+
