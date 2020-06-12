@@ -3,28 +3,12 @@ package hackerrank
 import (
 	"bufio"
 	"fmt"
+	"io"
 	"os"
 	"strconv"
+	"strings"
 	"testing"
 )
-
-func readFromFile(fp string) []int64 {
-	file, err := os.Open(fp)
-	if err != nil {
-		panic(err)
-	}
-	defer file.Close()
-	var lines []int64
-	scanner := bufio.NewScanner(file)
-	for scanner.Scan() {
-		i, err := strconv.ParseInt(scanner.Text(), 10, 64)
-		if err != nil {
-			panic(err)
-		}
-		lines = append(lines, i)
-	}
-	return lines
-}
 
 func TestNonDivisibleSubSet(t *testing.T) {
 	res := nonDivisibleSubset(7, []int32{278,576,496,727,410,124,338,149,209,702,282,718,771,575,436})
@@ -81,9 +65,142 @@ func TestEqualizeArray(t *testing.T) {
 }
 
 func TestQueensAttack(t *testing.T) {
-	if re := queensAttack(5, 3, 4, 3, [][]int32{{5,5}, {4,2}, {2,3}}); re != 10 {
+	if re := queensAttack(5, 3, 4, 3, [][]int32{{3, 2}, {4, 2}, {2, 3}}); re != 8 {
+		fmt.Println(re)
+		t.Fail()
+	}
+}
+func TestQueensAttackII(t *testing.T) {
+	if re := queensAttack(5, 3, 4, 3, [][]int32{{3, 4}, {4, 2}, {2, 3}, {2,5}}); re != 8 {
 		fmt.Println(re)
 		t.Fail()
 	}
 }
 
+func TestQueensAttackIII(t *testing.T) {
+	if re := queensTestFromFile("../test-data/n_queens_62.txt"); re != 62 {
+		fmt.Println(re)
+		t.Fail()
+	}
+}
+
+
+func queensTestFromFile(fp string) int32 {
+	file, err := os.Open(fp)
+	if err != nil {
+		panic(err)
+	}
+	defer file.Close()
+
+	reader := bufio.NewReaderSize(file, 1024 * 1024)
+
+	nk := strings.Split(readLine(reader), " ")
+
+	nTemp, err := strconv.ParseInt(nk[0], 10, 64)
+	n := int32(nTemp)
+
+	kTemp, err := strconv.ParseInt(nk[1], 10, 64)
+	k := int32(kTemp)
+
+	r_qC_q := strings.Split(readLine(reader), " ")
+
+	r_qTemp, err := strconv.ParseInt(r_qC_q[0], 10, 64)
+	r_q := int32(r_qTemp)
+
+	c_qTemp, err := strconv.ParseInt(r_qC_q[1], 10, 64)
+	c_q := int32(c_qTemp)
+
+	var obstacles [][]int32
+	for i := 0; i < int(k); i++ {
+		obstaclesRowTemp := strings.Split(readLine(reader), " ")
+
+		var obstaclesRow []int32
+		for _, obstaclesRowItem := range obstaclesRowTemp {
+			obstaclesItemTemp, _ := strconv.ParseInt(obstaclesRowItem, 10, 64)
+			obstaclesItem := int32(obstaclesItemTemp)
+			obstaclesRow = append(obstaclesRow, obstaclesItem)
+		}
+
+		if len(obstaclesRow) != int(2) {
+			panic("Bad input")
+		}
+
+		obstacles = append(obstacles, obstaclesRow)
+	}
+	if err != nil {
+		panic(err)
+	}
+
+	result := queensAttack(n, k, r_q, c_q, obstacles)
+
+	return result
+
+}
+
+func readLine(reader *bufio.Reader) string {
+	str, _, err := reader.ReadLine()
+	if err == io.EOF {
+		return ""
+	}
+
+	return strings.TrimRight(string(str), "\r\n")
+}
+
+
+func TestAcmTeam(t *testing.T) {
+	if re := acmTeam([]string{"10101", "11100", "11010", "00101"}); re[0] != 5 || re[1] != 2 {
+		fmt.Println(re)
+		t.Fail()
+	}
+}
+
+func TestAcmTeamFromFile(t *testing.T) {
+	file, err := os.Open("../test-data/acm_team.txt")
+	if err != nil {
+		panic(err)
+	}
+	defer file.Close()
+	reader := bufio.NewReaderSize(file, 1024 * 1024)
+	var topic = make([]string, 500)
+
+	for i := 0; i < int(500); i++ {
+		topicItem := readLine(reader)
+		topic[i] = topicItem
+	}
+	if re := acmTeam(topic); re[0] != 416 || re[1] != 1 {
+		fmt.Println(re)
+		t.Fail()
+	}
+
+}
+
+func TestOrganizingContainers(t *testing.T) {
+	if re := organizingContainers([][]int32{{0,2}, {1,1}}); re != "Impossible" {
+		t.Fail()
+	}
+	if re := organizingContainers([][]int32{{1,3,1}, {2,1,2}, {3,3,3}}); re != "Impossible" {
+		t.Fail()
+	}
+	if re := organizingContainers([][]int32{{0,2,1}, {1,1,1}, {2,0,0}}); re != "Possible" {
+		t.Fail()
+	}
+}
+
+func TestEncryption(t *testing.T) {
+	if re := encryption("haveaniceday"); re != "hae and via ecy" {
+		fmt.Println(re)
+		t.Fail()
+	}
+	if re := encryption("feedthedog"); re != "fto ehg ee dd" {
+		fmt.Println(re)
+		t.Fail()
+	}
+	if re := encryption("chillout"); re != "clu hlt io" {
+		fmt.Println(re)
+		t.Fail()
+	}
+	if re := encryption("wclwfoznbmyycxvaxagjhtexdkwjqhlojykopldsxesbbnezqmixfpujbssrbfhlgubvfhpfliimvmnny"); re != "wmgjpnull cyjqlejgi lyhhdzbui wctlsqsbm fxeoxmsvv ovxjeirfm zadysxbhn nxkkbffpn bawobphfy" {
+		fmt.Println(re)
+		t.Fail()
+	}
+}
