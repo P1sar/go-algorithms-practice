@@ -204,3 +204,130 @@ func TestEncryption(t *testing.T) {
 		t.Fail()
 	}
 }
+
+func TestBiggerIsGreater(t *testing.T) {
+	if re := biggerIsGreater("zalqxykemvzzgaka"); re != "zalqxykemvzzgkaa" {
+		fmt.Println(re)
+		t.Fail()
+	}
+	if re := biggerIsGreater("bb"); re != "no answer" {
+		fmt.Println(re)
+		t.Fail()
+	}
+}
+
+func TestFindNonIncreasingSuffixIndex(t *testing.T) {
+	if re := findNonIncreasingSuffixStartIndex([]string{"0", "1", "2", "5", "3", "3", "0"}); re != 3 {
+		fmt.Println(re)
+		t.Fail()
+	}
+	if re := findNonIncreasingSuffixStartIndex([]string{"0", "1", "2", "3", "4", "5", "6"}); re != 6 {
+		fmt.Println(re)
+		t.Fail()
+	}
+	if re := findNonIncreasingSuffixStartIndex([]string{"6", "5", "4", "3", "2", "1", "0"}); re != 0 {
+		fmt.Println(re)
+		t.Fail()
+	}
+}
+//
+//imllmmcslslkyoegyoam
+//fvincndjrurhf
+//rtglgzzqxnuflitnlyti
+//mhtvaqofxtyzr
+//zalqxykemvzzgaka
+//wjjulziszbqqdcpdnhod
+//japjbvjlxzkgietmk
+//jqczvgqywydkunmwj
+//ehdegnmorgafrjxvsck
+//tydwixlwghlomq
+//wddnwjneaxbwhwarm
+//pnimbesirfbixlv
+//mijamkzpiiniveki
+//qxtwpdpwexuje
+//qtcshorwykc
+//xoojiggdcyjrurp
+//vcjmvngcdyabcmzj
+//xildrrpach
+//rrcntnbqchsfhvjhi
+//kmotatmrabtcoum
+//bnfcejmyotwv
+//dnppdkpywiaxddoxq
+//tmowsxkrodmkrak
+//jfkaehlegowfggh
+//ttylsiegnttymxty
+//kyetllczuyibdkwyiqhr
+//xdhqbvlbtmmtshejff
+//kpdpzzohihzwgdgbfz
+//kuywptftpaaa
+//qfqpegznnyludvr
+//ufwogufbzaboaepsliqk
+//jfejqapjvbdcxtkyr
+//sypjbvatgiodddxy
+//wdpfyqjcpnc
+//baabpjckkyturd
+//uvwurzjyzbhcqmryprqa
+//kvtwtmqygksbmi
+//ivsjycnooeodwtp
+//zqyxjnnitzawipsmq
+//blmrzavodtfzyezp
+//bmqlhqndavc
+//phvauobwkrcfwdedcs
+//vpygyqubqywkndhwpz
+//yikanhdrwjx
+//vnpblfxmvwkflqokbr
+//pserilwzxwyorldsxlks
+//qymbqaehnyzhfqpqrlpp
+//fcakwzuqlzglnidbkmq
+//jkscckttaeifiksgkxmx
+//dkbllravwnhhfjjrec
+//imzsyrykfvtj
+//tvogoocldlukwfcajvxi
+//cvnagtypozljprajglv
+//hwcmacxvsmu
+//rhrzcpprqcfc
+//clppxvwtaktchqrfdi
+//qwusnlldnolqh
+//yitverajov
+//arciyxaxtvmfgqwbu
+//pzbxvxdjuuvvu
+//nxfowilpdxwltp
+//swzsaynxbytyttqq
+//qyrogefletey
+//iotjgthvslvmjpcchufh
+//knfpyjtzqf
+//tmtbfayantwkm
+//asxwzygnngw
+//rmwiwrurutb
+//bhmpfwhgqfcqfldlsh
+//yhbidtewppg
+//jwwbeuiklpodziiv
+//anjhprmkwieb
+//lpwhqaebrm
+//dunecynelymcpyonqj
+//hblfldireuivzekegti
+//uryygzpwifrriecgvw
+//kzuhaysegaxtwqtxv
+//kvarmrbpoxxujhvgwp
+//hanhaggqzdpunkugzmqh
+//gnwqwsylqeurq
+//qzkjbnyvclrkmtcd
+//argsnaqbqvu
+//obbnlkoaklxc
+//ojiilqieycsasvqosyuc
+//qhlgiwsmtxbffjtsx
+//vvrvnmndeopgy
+//ibeqzyeuvzbf
+//sajpyegttujyxx
+//zmdjphzogfldlkgbchtn
+//tbanvjmwixrx
+//gmdhdlmopzyvddeyajjq
+//yxvmvedubzdcp
+//soygdzhbckkfu
+//gkbekyrhwcc
+//wevzqpnqwtpuf
+//rbobquotbysufwqjoe
+//bpgqfwoyntuhkwov
+//schtabphairewhfpm
+//rlmrahlisggguykue
+//fjtfrmlqvseqk
