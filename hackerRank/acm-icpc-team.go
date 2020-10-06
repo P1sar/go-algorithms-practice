@@ -1,6 +1,8 @@
 package hackerrank
 
-import "fmt"
+import (
+	"fmt"
+)
 
 func acmTeam(topic []string) []int32 {
 	var combinations = make(map[int32]int32)

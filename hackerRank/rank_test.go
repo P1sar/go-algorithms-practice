@@ -234,3 +234,21 @@ func TestFindNonIncreasingSuffixIndex(t *testing.T) {
 func TestKaprenkarNymbers(t *testing.T) {
 	kaprekarNumbers(77778, 77778)
 }
+
+func TestBeautifulTriplets(t *testing.T) {
+	if re := beautifulTriplets(1, []int32{2,2,3,4,5}); re != 3 {
+		fmt.Println(re)
+		t.Fail()
+	}
+	if re := beautifulTriplets(3, []int32{1,2,4,5,7,8,10}); re != 3 {
+		fmt.Println(re)
+		t.Fail()
+	}
+}
+
+func TestMinimumDistances(t *testing.T) {
+	if re := minimumDistances([]int32{7,1,3,4,1,7}); re != 3 {
+		fmt.Println(re)
+		t.Fail()
+	}
+}

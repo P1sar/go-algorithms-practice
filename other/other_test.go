@@ -12,3 +12,9 @@ func TestGCD(t *testing.T) {
 		t.Fail()
 	}
 }
+
+func TestLCM(t *testing.T) {
+	if lcm(8,14) != 56  {
+		t.Fail()
+	}
+}
