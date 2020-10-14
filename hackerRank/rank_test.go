@@ -252,3 +252,29 @@ func TestMinimumDistances(t *testing.T) {
 		t.Fail()
 	}
 }
+
+func TestHowManyGames(t *testing.T) {
+	if re := howManyGames(20,3,6,85); re != 7 {
+		fmt.Println(re)
+		t.Fail()
+	}
+	if re := howManyGames(100,1, 1, 99); re != 0 {
+		fmt.Println(re)
+		t.Fail()
+	}
+	if re := howManyGames(100, 19, 1, 180); re != 1 {
+		fmt.Println(re)
+		t.Fail()
+	}
+}
+
+func  TestTimeInWords(t *testing.T) {
+	if re := timeInWords(3,0); re != "three o' clock" {
+		fmt.Println(re)
+		t.Fail()
+	}
+	if re := timeInWords(5,47); re != "thirteen minutes to six" {
+		fmt.Println(re)
+		t.Fail()
+	}
+}
